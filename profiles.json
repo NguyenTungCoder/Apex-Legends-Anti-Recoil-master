@@ -1,0 +1,341 @@
+{
+  "profiles": {
+    "R-301": {
+      "vertical_min": 2,
+      "vertical_max": 4,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.032,
+      "fire_rate_max": 0.038,
+      "ads_scale": 0.55,
+      "jitter": 0.25,
+      "stages": [
+        {"after_shots": 5, "vertical_min": 2, "vertical_max": 3, "horizontal_range": 1, "fire_rate_min": 0.032, "fire_rate_max": 0.038},
+        {"after_shots": 12, "vertical_min": 3, "vertical_max": 5, "horizontal_range": 2, "fire_rate_min": 0.035, "fire_rate_max": 0.040},
+        {"after_shots": 25, "vertical_min": 3, "vertical_max": 4, "horizontal_range": 2, "fire_rate_min": 0.032, "fire_rate_max": 0.038}
+      ]
+    },
+    "R-99": {
+      "vertical_min": 3,
+      "vertical_max": 5,
+      "horizontal_range": 2,
+      "fire_rate_min": 0.025,
+      "fire_rate_max": 0.030,
+      "ads_scale": 0.5,
+      "jitter": 0.4,
+      "stages": [
+        {"after_shots": 4, "vertical_min": 4, "vertical_max": 6, "horizontal_range": 2, "fire_rate_min": 0.025, "fire_rate_max": 0.030},
+        {"after_shots": 12, "vertical_min": 5, "vertical_max": 7, "horizontal_range": 3, "fire_rate_min": 0.027, "fire_rate_max": 0.032},
+        {"after_shots": 22, "vertical_min": 4, "vertical_max": 6, "horizontal_range": 2, "fire_rate_min": 0.025, "fire_rate_max": 0.030}
+      ]
+    },
+    "Flatline": {
+      "vertical_min": 3,
+      "vertical_max": 5,
+      "horizontal_range": 2,
+      "fire_rate_min": 0.040,
+      "fire_rate_max": 0.045,
+      "ads_scale": 0.55,
+      "jitter": 0.3,
+      "stages": [
+        {"after_shots": 5, "vertical_min": 3, "vertical_max": 5, "horizontal_range": 1, "fire_rate_min": 0.040, "fire_rate_max": 0.045},
+        {"after_shots": 14, "vertical_min": 5, "vertical_max": 7, "horizontal_range": 3, "fire_rate_min": 0.042, "fire_rate_max": 0.048},
+        {"after_shots": 25, "vertical_min": 4, "vertical_max": 6, "horizontal_range": 2, "fire_rate_min": 0.040, "fire_rate_max": 0.045}
+      ]
+    },
+    "Volt": {
+      "vertical_min": 2,
+      "vertical_max": 4,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.030,
+      "fire_rate_max": 0.035,
+      "ads_scale": 0.5,
+      "jitter": 0.25,
+      "stages": [
+        {"after_shots": 6, "vertical_min": 2, "vertical_max": 4, "horizontal_range": 1, "fire_rate_min": 0.030, "fire_rate_max": 0.035},
+        {"after_shots": 16, "vertical_min": 3, "vertical_max": 5, "horizontal_range": 2, "fire_rate_min": 0.032, "fire_rate_max": 0.037}
+      ]
+    },
+    "CAR-SMG": {
+      "vertical_min": 3,
+      "vertical_max": 5,
+      "horizontal_range": 2,
+      "fire_rate_min": 0.027,
+      "fire_rate_max": 0.032,
+      "ads_scale": 0.5,
+      "jitter": 0.35,
+      "stages": [
+        {"after_shots": 5, "vertical_min": 3, "vertical_max": 5, "horizontal_range": 1, "fire_rate_min": 0.027, "fire_rate_max": 0.032},
+        {"after_shots": 15, "vertical_min": 4, "vertical_max": 6, "horizontal_range": 3, "fire_rate_min": 0.029, "fire_rate_max": 0.034}
+      ]
+    },
+    "Spitfire": {
+      "vertical_min": 2,
+      "vertical_max": 4,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.055,
+      "fire_rate_max": 0.060,
+      "ads_scale": 0.6,
+      "jitter": 0.2,
+      "stages": [
+        {"after_shots": 8, "vertical_min": 2, "vertical_max": 4, "horizontal_range": 1, "fire_rate_min": 0.055, "fire_rate_max": 0.060},
+        {"after_shots": 20, "vertical_min": 3, "vertical_max": 5, "horizontal_range": 2, "fire_rate_min": 0.057, "fire_rate_max": 0.062}
+      ]
+    },
+    "Havoc": {
+      "vertical_min": 3,
+      "vertical_max": 5,
+      "horizontal_range": 2,
+      "fire_rate_min": 0.050,
+      "fire_rate_max": 0.055,
+      "ads_scale": 0.5,
+      "jitter": 0.3,
+      "stages": [
+        {"after_shots": 5, "vertical_min": 3, "vertical_max": 5, "horizontal_range": 1, "fire_rate_min": 0.050, "fire_rate_max": 0.055},
+        {"after_shots": 15, "vertical_min": 4, "vertical_max": 6, "horizontal_range": 2, "fire_rate_min": 0.052, "fire_rate_max": 0.057}
+      ]
+    },
+    "Devotion": {
+      "vertical_min": 3,
+      "vertical_max": 6,
+      "horizontal_range": 3,
+      "fire_rate_min": 0.045,
+      "fire_rate_max": 0.055,
+      "ads_scale": 0.5,
+      "jitter": 0.4,
+      "stages": [
+        {"after_shots": 3, "vertical_min": 2, "vertical_max": 4, "horizontal_range": 1, "fire_rate_min": 0.055, "fire_rate_max": 0.065},
+        {"after_shots": 8, "vertical_min": 3, "vertical_max": 6, "horizontal_range": 2, "fire_rate_min": 0.050, "fire_rate_max": 0.060},
+        {"after_shots": 18, "vertical_min": 5, "vertical_max": 8, "horizontal_range": 3, "fire_rate_min": 0.045, "fire_rate_max": 0.055},
+        {"after_shots": 30, "vertical_min": 6, "vertical_max": 9, "horizontal_range": 3, "fire_rate_min": 0.045, "fire_rate_max": 0.050}
+      ]
+    },
+    "Hemlok": {
+      "vertical_min": 2,
+      "vertical_max": 4,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.060,
+      "fire_rate_max": 0.070,
+      "ads_scale": 0.6,
+      "jitter": 0.3,
+      "stages": [
+        {"after_shots": 3, "vertical_min": 2, "vertical_max": 4, "horizontal_range": 1, "fire_rate_min": 0.060, "fire_rate_max": 0.070},
+        {"after_shots": 9, "vertical_min": 3, "vertical_max": 5, "horizontal_range": 2, "fire_rate_min": 0.065, "fire_rate_max": 0.075}
+      ]
+    },
+    "Wingman": {
+      "vertical_min": 1,
+      "vertical_max": 2,
+      "horizontal_range": 0,
+      "fire_rate_min": 0.080,
+      "fire_rate_max": 0.120,
+      "ads_scale": 0.4,
+      "jitter": 0.5,
+      "stages": []
+    },
+    "Alternator": {
+      "vertical_min": 1,
+      "vertical_max": 3,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.040,
+      "fire_rate_max": 0.045,
+      "ads_scale": 0.55,
+      "jitter": 0.3,
+      "stages": []
+    },
+    "Prowler": {
+      "vertical_min": 2,
+      "vertical_max": 4,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.050,
+      "fire_rate_max": 0.055,
+      "ads_scale": 0.5,
+      "jitter": 0.3,
+      "stages": []
+    },
+    "RE-45": {
+      "vertical_min": 2,
+      "vertical_max": 3,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.035,
+      "fire_rate_max": 0.040,
+      "ads_scale": 0.55,
+      "jitter": 0.25,
+      "stages": []
+    },
+    "L-STAR": {
+      "vertical_min": 2,
+      "vertical_max": 4,
+      "horizontal_range": 2,
+      "fire_rate_min": 0.030,
+      "fire_rate_max": 0.035,
+      "ads_scale": 0.5,
+      "jitter": 0.35,
+      "stages": [
+        {"after_shots": 8, "vertical_min": 3, "vertical_max": 5, "horizontal_range": 2, "fire_rate_min": 0.032, "fire_rate_max": 0.037},
+        {"after_shots": 20, "vertical_min": 4, "vertical_max": 6, "horizontal_range": 3, "fire_rate_min": 0.035, "fire_rate_max": 0.040}
+      ]
+    },
+    "30-30 Repeater": {
+      "vertical_min": 1,
+      "vertical_max": 3,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.080,
+      "fire_rate_max": 0.120,
+      "ads_scale": 0.5,
+      "jitter": 0.4,
+      "stages": []
+    },
+    "Bocek Bow": {
+      "vertical_min": 1,
+      "vertical_max": 2,
+      "horizontal_range": 0,
+      "fire_rate_min": 0.080,
+      "fire_rate_max": 0.100,
+      "ads_scale": 0.4,
+      "jitter": 0.5,
+      "stages": []
+    },
+    "Mozambique": {
+      "vertical_min": 1,
+      "vertical_max": 2,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.060,
+      "fire_rate_max": 0.065,
+      "ads_scale": 0.5,
+      "jitter": 0.3,
+      "stages": []
+    },
+    "EVA-8": {
+      "vertical_min": 1,
+      "vertical_max": 2,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.070,
+      "fire_rate_max": 0.080,
+      "ads_scale": 0.5,
+      "jitter": 0.3,
+      "stages": []
+    },
+    "Peacekeeper": {
+      "vertical_min": 1,
+      "vertical_max": 3,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.100,
+      "fire_rate_max": 0.120,
+      "ads_scale": 0.5,
+      "jitter": 0.4,
+      "stages": []
+    },
+    "Mastiff": {
+      "vertical_min": 1,
+      "vertical_max": 3,
+      "horizontal_range": 2,
+      "fire_rate_min": 0.100,
+      "fire_rate_max": 0.120,
+      "ads_scale": 0.5,
+      "jitter": 0.4,
+      "stages": []
+    },
+    "Charge Rifle": {
+      "vertical_min": 1,
+      "vertical_max": 2,
+      "horizontal_range": 0,
+      "fire_rate_min": 0.200,
+      "fire_rate_max": 0.300,
+      "ads_scale": 0.3,
+      "jitter": 0.6,
+      "stages": []
+    },
+    "Longbow": {
+      "vertical_min": 2,
+      "vertical_max": 4,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.120,
+      "fire_rate_max": 0.140,
+      "ads_scale": 0.4,
+      "jitter": 0.4,
+      "stages": []
+    },
+    "Sentinel": {
+      "vertical_min": 2,
+      "vertical_max": 4,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.150,
+      "fire_rate_max": 0.200,
+      "ads_scale": 0.4,
+      "jitter": 0.5,
+      "stages": []
+    },
+    "Triple Take": {
+      "vertical_min": 2,
+      "vertical_max": 4,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.120,
+      "fire_rate_max": 0.140,
+      "ads_scale": 0.4,
+      "jitter": 0.4,
+      "stages": []
+    },
+    "Rampage": {
+      "vertical_min": 2,
+      "vertical_max": 4,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.055,
+      "fire_rate_max": 0.060,
+      "ads_scale": 0.55,
+      "jitter": 0.25,
+      "stages": [
+        {"after_shots": 8, "vertical_min": 2, "vertical_max": 4, "horizontal_range": 2, "fire_rate_min": 0.055, "fire_rate_max": 0.060},
+        {"after_shots": 20, "vertical_min": 3, "vertical_max": 5, "horizontal_range": 2, "fire_rate_min": 0.057, "fire_rate_max": 0.062}
+      ]
+    },
+    "Nemesis": {
+      "vertical_min": 2,
+      "vertical_max": 3,
+      "horizontal_range": 1,
+      "fire_rate_min": 0.030,
+      "fire_rate_max": 0.040,
+      "ads_scale": 0.5,
+      "jitter": 0.3,
+      "stages": [
+        {"after_shots": 4, "vertical_min": 2, "vertical_max": 3, "horizontal_range": 1, "fire_rate_min": 0.032, "fire_rate_max": 0.038},
+        {"after_shots": 12, "vertical_min": 3, "vertical_max": 4, "horizontal_range": 2, "fire_rate_min": 0.035, "fire_rate_max": 0.040},
+        {"after_shots": 22, "vertical_min": 3, "vertical_max": 4, "horizontal_range": 2, "fire_rate_min": 0.030, "fire_rate_max": 0.035}
+      ]
+    },
+    "C.A.R. SMG": {
+      "vertical_min": 3,
+      "vertical_max": 5,
+      "horizontal_range": 2,
+      "fire_rate_min": 0.027,
+      "fire_rate_max": 0.032,
+      "ads_scale": 0.5,
+      "jitter": 0.35,
+      "stages": [
+        {"after_shots": 5, "vertical_min": 3, "vertical_max": 5, "horizontal_range": 1, "fire_rate_min": 0.027, "fire_rate_max": 0.032},
+        {"after_shots": 15, "vertical_min": 4, "vertical_max": 6, "horizontal_range": 3, "fire_rate_min": 0.029, "fire_rate_max": 0.034}
+      ]
+    },
+    "VK-47 Flatline": {
+      "vertical_min": 3,
+      "vertical_max": 5,
+      "horizontal_range": 2,
+      "fire_rate_min": 0.040,
+      "fire_rate_max": 0.045,
+      "ads_scale": 0.55,
+      "jitter": 0.3,
+      "stages": [
+        {"after_shots": 5, "vertical_min": 3, "vertical_max": 5, "horizontal_range": 1, "fire_rate_min": 0.040, "fire_rate_max": 0.045},
+        {"after_shots": 14, "vertical_min": 5, "vertical_max": 7, "horizontal_range": 3, "fire_rate_min": 0.042, "fire_rate_max": 0.048},
+        {"after_shots": 25, "vertical_min": 4, "vertical_max": 6, "horizontal_range": 2, "fire_rate_min": 0.040, "fire_rate_max": 0.045}
+      ]
+    }
+  },
+  "global": {
+    "toggle_key": "num lock",
+    "panic_key": "f12",
+    "mode": "toggle",
+    "default_enabled": false,
+    "last_profile": "R-301",
+    "overlay_enabled": false
+  }
+}
